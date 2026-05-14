@@ -1,0 +1,16 @@
+# Hugo 构建输出
+/public/
+/resources/_gen/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugo
+hugo_stats.json

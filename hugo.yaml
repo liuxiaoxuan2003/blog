@@ -1,0 +1,147 @@
+baseURL: https://liuxiaoxuan2003.github.io/blog/
+title: My Blog
+theme: hugo-theme-stack
+
+# 默认语言
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: false
+
+# 主内容区
+mainSections:
+  - posts
+
+# 多语言配置
+languages:
+  zh-cn:
+    label: 中文
+    weight: 1
+    title: Life is a Markov Chain
+    params:
+      description: 推荐算法 | 机器学习 | 统计学
+  en:
+    label: English
+    weight: 2
+    title: Life is a Markov Chain
+    params:
+      description: RecSys | Machine Learning | Statistics
+
+# 分页
+paginate: 10
+
+# 站点参数
+params:
+  # 页脚
+  footer:
+    since: 2025
+    customText: "Life is a Markov chain."
+
+  # 文章日期格式
+  dateFormat:
+    published: ":date_full"
+    lastUpdated: ":date_full"
+
+  # 侧边栏 - avatar 是字符串路径
+  sidebar:
+    compact: false
+    avatar: img/avatar.jpg
+
+  # 文章
+  article:
+    headingAnchor: false
+    math: true
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+
+  # 评论 - giscus
+  comments:
+    enabled: true
+    provider: giscus
+    giscus:
+      repo: ""  # 请填写你的 GitHub 仓库，格式: username/repo
+      repoID: ""  # 请在 https://giscus.app 获取
+      category: "Announcements"
+      categoryID: ""  # 请在 https://giscus.app 获取
+      mapping: pathname
+      lightTheme: light
+      darkTheme: dark_dimmed
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: top
+      lang: zh-CN
+
+  # 颜色模式
+  colorScheme:
+    toggle: true
+    default: auto
+
+  # 图片处理
+  imageProcessing:
+    autoOrient: false
+    content:
+      enabled: true
+    thumbnail:
+      enabled: true
+
+  # 侧边栏小部件
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 20
+
+# 菜单
+menu:
+  main: []
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/liuxiaoxuan2003
+      params:
+        icon: brand-github
+
+# Markdown 渲染
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+
+# 输出格式
+outputs:
+  home:
+    - HTML
+    - RSS
+
+# 相关内容
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 200
+
+# Permalinks
+permalinks:
+  posts: /p/:slug/
+  page: /:slug/
