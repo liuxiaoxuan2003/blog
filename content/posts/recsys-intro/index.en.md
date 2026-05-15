@@ -3,6 +3,7 @@ title: "Introduction to RecSys: From Collaborative Filtering to Deep Learning"
 slug: "recsys-intro"
 description: "A beginner's guide to recommendation systems, covering the evolution from classic collaborative filtering to deep learning models."
 date: 2026-05-14
+image: cover.jpg
 categories:
   - Recommendation Systems
 tags:

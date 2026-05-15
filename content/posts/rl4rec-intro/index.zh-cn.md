@@ -3,6 +3,7 @@ title: "强化学习遇上推荐系统：RL4Rec 初探"
 slug: "rl4rec-intro"
 description: "探索强化学习在推荐系统中的应用，从 MDP 建模到策略优化。"
 date: 2026-05-12
+image: cover.jpg
 categories:
   - 推荐系统
   - 强化学习

@@ -3,6 +3,7 @@ title: "When RL Meets RecSys: An Introduction to RL4Rec"
 slug: "rl4rec-intro"
 description: "Exploring reinforcement learning applications in recommendation systems, from MDP modeling to policy optimization."
 date: 2026-05-12
+image: cover.jpg
 categories:
   - Recommendation Systems
   - Reinforcement Learning

@@ -3,7 +3,7 @@ title: "你好，世界！欢迎来到我的博客"
 slug: "hello-world"
 description: "这是我的第一篇博客文章，介绍博客的搭建过程和未来计划。"
 date: 2026-05-14
-image: 
+image: cover.jpg
 categories:
   - 技术
 tags:

@@ -3,6 +3,7 @@ title: "推荐系统入门：从协同过滤到深度学习"
 slug: "recsys-intro"
 description: "一篇推荐系统入门指南，梳理从经典协同过滤到深度学习推荐模型的演进脉络。"
 date: 2026-05-14
+image: cover.jpg
 categories:
   - 推荐系统
 tags:

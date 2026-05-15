@@ -3,7 +3,7 @@ title: "Hello World! Welcome to My Blog"
 slug: "hello-world"
 description: "This is my first blog post, introducing the blog setup and future plans."
 date: 2026-05-14
-image: 
+image: cover.jpg
 categories:
   - Tech
 tags:
