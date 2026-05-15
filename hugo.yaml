@@ -6,10 +6,6 @@ theme: hugo-theme-stack
 defaultContentLanguage: zh-cn
 defaultContentLanguageInSubdir: false
 
-# 主内容区
-mainSections:
-  - posts
-
 # 多语言配置
 languages:
   zh-cn:
@@ -30,6 +26,10 @@ paginate: 10
 
 # 站点参数
 params:
+  # 主内容区
+  mainSections:
+    - posts
+
   # 页脚
   footer:
     since: 2025
